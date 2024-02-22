@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class GradientColorBackground extends StatelessWidget {
-  const GradientColorBackground({super.key});
+class GradiantContainer extends StatelessWidget {
+  const GradiantContainer({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class GradientColorBackground extends StatelessWidget {
         gradient: LinearGradient(
           colors: [
             Color.fromARGB(255, 26, 2, 80),
-            Color.fromARGB(255, 45, 7, 98)
+            Color.fromARGB(255, 45, 7, 98),
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
@@ -18,10 +18,12 @@ class GradientColorBackground extends StatelessWidget {
       ),
       child: const Center(
         child: Text(
-          'Hello World!',
+          'Welcom to Flutter',
           style: TextStyle(
-            color: Colors.white,
-            fontSize: 28,
+            fontSize: 18,
+            fontFamily: 'Times New Roman',
+            fontWeight: FontWeight.bold,
+            color: Color.fromARGB(217, 5, 167, 255),
           ),
         ),
       ),

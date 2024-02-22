@@ -12,19 +12,8 @@ void main() {
             icon: const Icon(Icons.settings),
             onPressed: () {},
           ),
-          title: const Center(
-            child: Text(
-              'Welcom to Flutter',
-              style: TextStyle(
-                fontSize: 18,
-                fontFamily: 'Times New Roman',
-                fontWeight: FontWeight.bold,
-                color: Color.fromARGB(217, 5, 167, 255),
-              ),
-            ),
-          ),
         ),
-        body: const GradientColorBackground(),
+        body: const GradiantContainer(),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: const Icon(
