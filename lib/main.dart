@@ -12,8 +12,27 @@ void main() {
             icon: const Icon(Icons.settings),
             onPressed: () {},
           ),
+          title: const Text(
+            "Welcom to Flutter",
+            style: TextStyle(
+              fontSize: 18,
+              fontFamily: 'Times New Roman',
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+          ),
+          backgroundColor: Colors.blueAccent,
         ),
-        body: const GradiantContainer(),
+        // body: const GradiantContainer(),
+        body: Center(
+          child: TextButton.icon(
+            onPressed: () {},
+            icon: const Icon(Icons.mail),
+            label: const Text(
+              'Click me',
+            ),
+          ),
+        ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: const Icon(
