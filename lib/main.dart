@@ -23,8 +23,13 @@ void main() {
           ),
           backgroundColor: Colors.blueAccent,
         ),
-        // body: const GradiantContainer(),
-        body: Center(
+        body: const GradiantContainer(
+          gradientcolors: [
+            Color.fromARGB(255, 26, 2, 80),
+            Color.fromARGB(255, 45, 6, 98)
+          ],
+        ),
+        /*body: Center(
           child: TextButton.icon(
             onPressed: () {},
             icon: const Icon(Icons.mail),
@@ -32,7 +37,7 @@ void main() {
               'Click me',
             ),
           ),
-        ),
+        ),*/
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: const Icon(
