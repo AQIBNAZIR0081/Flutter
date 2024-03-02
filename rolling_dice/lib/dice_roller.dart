@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
+final randomizer = Random();
+
 class RollingDice extends StatefulWidget {
   const RollingDice({super.key});
 
@@ -11,12 +13,11 @@ class RollingDice extends StatefulWidget {
 }
 
 class _RollingDiceState extends State<RollingDice> {
-  var activeDice = 'images/dice-2.png';
+  var currentDiceroll = 2;
 
   void rollDice() {
-    var diceroll = Random().nextInt(6) + 1;
     setState(() {
-      activeDice = 'images/dice-$diceroll.png';
+      currentDiceroll = randomizer.nextInt(6) + 1;
     });
   }
 
@@ -26,7 +27,7 @@ class _RollingDiceState extends State<RollingDice> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
-          activeDice, // Passing the value of variable out of function
+          'images/dice-$currentDiceroll.png', // Passing the value of variable out of function
           scale: 0.5,
         ),
 

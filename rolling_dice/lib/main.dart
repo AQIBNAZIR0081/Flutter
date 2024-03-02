@@ -21,12 +21,6 @@ void main() {
           backgroundColor: const Color.fromARGB(255, 45, 8, 96),
         ),
         body: GradiantContainer.purple(), // using custome Constructor Function
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {},
-          child: const Icon(
-            Icons.add,
-          ),
-        ),
       ),
     ),
   );
