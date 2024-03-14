@@ -13,8 +13,9 @@ class _QuizState extends State<Quiz> {
   // Widget? activeScreen;
   var activeScreen = 'Start-Screen';
 
-  /*@override
   // initState() called when the State object is firt created. so it's not suitable for handling user interactions or other dynamic events that might require a screen change.
+
+  /*@override
   void initState() {
     activeScreen = StartScreen(switchScreen);
     super.initState();
@@ -28,6 +29,17 @@ class _QuizState extends State<Quiz> {
 
   @override
   Widget build(BuildContext context) {
+    // 3rd Method for switching screens
+    /*final screenWidget = activeScreen == "Start-Screen"
+        ? StartScreen(switchScreen)
+        : const QuestionsScreen();*/
+
+    // 4th Method for switching Screens by if statement
+    Widget screenWidget = StartScreen(switchScreen);
+    if (activeScreen == 'Question-Screen') {
+      screenWidget = const QuestionsScreen();
+    }
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
@@ -42,10 +54,16 @@ class _QuizState extends State<Quiz> {
               end: Alignment.bottomRight,
             ),
           ),
+          // This context used for initState()
+          // child: activeScreen = const QuestionsScreen()
+
           // Use Ternory Expression to switch screen
-          child: activeScreen == 'Start-Screen'
+          /*child: activeScreen == 'Start-Screen'
               ? StartScreen(switchScreen)
-              : const QuestionsScreen(),
+              : const QuestionsScreen(),*/
+
+          // 3rd method is by providing the whole ternory expression to a local variable in the build state and then pass the variable name to child widget
+          child: screenWidget,
         ),
       ),
     );
