@@ -28,30 +28,15 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
           const SizedBox(
             height: 20,
           ),
-          OptionsButton(
-            answertext: currentQuestion.options[0],
-            onTap: () {},
-          ),
-          const Padding(
-            padding: EdgeInsets.only(top: 10),
-          ),
-          OptionsButton(
-            answertext: currentQuestion.options[1],
-            onTap: () {},
-          ),
-          const Padding(
-            padding: EdgeInsets.only(top: 10),
-          ),
-          OptionsButton(
-            answertext: currentQuestion.options[2],
-            onTap: () {},
-          ),
-          const Padding(
-            padding: EdgeInsets.only(top: 10),
-          ),
-          OptionsButton(
-            answertext: currentQuestion.options[3],
-            onTap: () {},
+
+          // Spreading value
+          ...currentQuestion.options.map(
+            (answer) {
+              return Padding(
+                padding: const EdgeInsets.only(top: 10),
+                child: OptionsButton(answertext: answer, onTap: () {}),
+              );
+            },
           ),
         ],
       ),
