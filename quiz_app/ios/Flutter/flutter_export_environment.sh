@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=/home/aqibnazir/Documents/src/flutter"
-export "FLUTTER_APPLICATION_PATH=/home/aqibnazir/Documents/University/Semester 5/Mobile App Development/Flutter/quiz_app"
+export "FLUTTER_APPLICATION_PATH=/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib/main.dart"
 export "FLUTTER_BUILD_DIR=build"
