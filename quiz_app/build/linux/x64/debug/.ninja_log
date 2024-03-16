@@ -1,56 +1,56 @@
 # ninja log v5
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	5234e9a5aaf02e23
-68733	69368	0	CMakeFiles/install.util	9cfa99096f394688
-61500	68060	1710579573525806813	CMakeFiles/quiz_app.dir/my_application.cc.o	7666fa13e1657920
-61512	67405	1710579572853815041	CMakeFiles/quiz_app.dir/flutter/generated_plugin_registrant.cc.o	9eff2cc138684de1
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/build/linux/x64/debug/flutter/_phony_	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	5234e9a5aaf02e23
-61489	67649	1710579573005813179	CMakeFiles/quiz_app.dir/main.cc.o	4185551d4b2433e4
-7	61487	0	flutter/_phony_	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	5234e9a5aaf02e23
-68061	68732	1710579574201798536	intermediates_do_not_run/quiz_app	71648242efd43410
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	5234e9a5aaf02e23
-7	61487	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	5234e9a5aaf02e23
 21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	5234e9a5aaf02e23
 21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	5234e9a5aaf02e23
 21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	5234e9a5aaf02e23
 21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	5234e9a5aaf02e23
 21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	5234e9a5aaf02e23
 21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	5234e9a5aaf02e23
-21	18023	0	flutter/_phony_	5234e9a5aaf02e23
-21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/build/linux/x64/debug/flutter/_phony_	5234e9a5aaf02e23
-18027	21672	1710580576045487370	CMakeFiles/quiz_app.dir/flutter/generated_plugin_registrant.cc.o	9eff2cc138684de1
-18026	21841	1710580576217478326	CMakeFiles/quiz_app.dir/my_application.cc.o	7666fa13e1657920
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	5234e9a5aaf02e23
 21842	22382	1710580576765449510	intermediates_do_not_run/quiz_app	f0a152c3015305e2
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	5234e9a5aaf02e23
+21	18023	0	flutter/_phony_	5234e9a5aaf02e23
+61489	67649	1710579573005813179	CMakeFiles/quiz_app.dir/main.cc.o	4185551d4b2433e4
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	5234e9a5aaf02e23
+21	18023	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/build/linux/x64/debug/flutter/_phony_	5234e9a5aaf02e23
+18026	21841	1710580576217478326	CMakeFiles/quiz_app.dir/my_application.cc.o	7666fa13e1657920
 22382	22921	0	CMakeFiles/install.util	9cfa99096f394688
+18027	21672	1710580576045487370	CMakeFiles/quiz_app.dir/flutter/generated_plugin_registrant.cc.o	9eff2cc138684de1
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	5234e9a5aaf02e23
+28	17625	0	flutter/_phony_	5234e9a5aaf02e23
+28	17625	0	/home/aqibnazir/Documents/University/Semester-5/Mobile App Development/Flutter/quiz_app/build/linux/x64/debug/flutter/_phony_	5234e9a5aaf02e23
+17628	20658	1710587323249553786	CMakeFiles/quiz_app.dir/flutter/generated_plugin_registrant.cc.o	9eff2cc138684de1
+17627	20919	1710587323517599637	CMakeFiles/quiz_app.dir/my_application.cc.o	7666fa13e1657920
+20919	21466	1710587324073694682	intermediates_do_not_run/quiz_app	f0a152c3015305e2
+21466	22113	0	CMakeFiles/install.util	9cfa99096f394688
