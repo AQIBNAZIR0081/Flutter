@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1083194689692",
+    "firebase_url": "https://test-df08e-default-rtdb.firebaseio.com",
+    "project_id": "test-df08e",
+    "storage_bucket": "test-df08e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083194689692:android:ffa449503e6c73e5cdc559",
+        "android_client_info": {
+          "package_name": "com.example.quiz_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ULrhAWAgGcnnbedAjuROvPExY4YsE3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
