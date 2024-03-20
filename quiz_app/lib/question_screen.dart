@@ -34,7 +34,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
             ),
 
             // Spreading value
-            ...currentQuestion.options.map(
+            ...currentQuestion.getShuffleAnswer().map(
               (answer) {
                 return Padding(
                   padding: const EdgeInsets.only(top: 10),
