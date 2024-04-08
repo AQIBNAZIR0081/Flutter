@@ -18,6 +18,11 @@ class _QuizState extends State<Quiz> {
     super.initState();
   } */
 
+  final List<String> selectedAnswers = [];
+  void chooseAnswer(String answer) {
+    selectedAnswers.add(answer);
+  }
+
   // Alternative way  to switch screens
   var activeScreen = 'start-screen';
 
@@ -38,10 +43,11 @@ class _QuizState extends State<Quiz> {
     // 4th method
     Widget screenWidget = StartScreen(switchScreen);
     if (activeScreen == 'questions-screen') {
-      screenWidget = const QuestionsScreen();
+      screenWidget = QuestionsScreen(onSelectAnswer: chooseAnswer);
     }
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Container(
           decoration: const BoxDecoration(
