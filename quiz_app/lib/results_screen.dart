@@ -21,7 +21,6 @@ class ResultsScreen extends StatelessWidget {
         },
       );
     }
-
     return summary;
   }
 
@@ -56,9 +55,14 @@ class ResultsScreen extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-            TextButton(
+            TextButton.icon(
+              icon: const Icon(Icons.restart_alt),
+              label: const Text('Restart Quiz'),
               onPressed: () {},
-              child: const Text('Restart Quiz'),
+              style: TextButton.styleFrom(
+                backgroundColor: const Color.fromARGB(255, 201, 153, 251),
+                foregroundColor: Colors.white,
+              ),
             ),
           ],
         ),
