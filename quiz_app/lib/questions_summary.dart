@@ -16,12 +16,20 @@ class QuestoinsSummary extends StatelessWidget {
           children: summaryData.map(
             (data) {
               return Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(((data['question_index'] as int) + 1).toString()),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      ((data['question_index'] as int) + 1).toString(),
+                      style: const TextStyle(
+                        backgroundColor: Color.fromARGB(255, 215, 153, 225),
+                      ),
+                    ),
+                  ),
                   Expanded(
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 15, vertical: 5),
+                      padding: const EdgeInsets.symmetric(horizontal: 15),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
