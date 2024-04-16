@@ -18,12 +18,13 @@ class QuestoinsSummary extends StatelessWidget {
               return Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
+                  CircleAvatar(
+                    radius: 13.0,
+                    backgroundColor: const Color.fromARGB(255, 201, 153, 251),
                     child: Text(
                       ((data['question_index'] as int) + 1).toString(),
                       style: const TextStyle(
-                        backgroundColor: Color.fromARGB(255, 215, 153, 225),
+                        color: Colors.white,
                       ),
                     ),
                   ),
@@ -48,7 +49,12 @@ class QuestoinsSummary extends StatelessWidget {
                               color: const Color.fromARGB(255, 215, 189, 243),
                             ),
                           ),
-                          Text(data['correct_answer'].toString()),
+                          Text(
+                            data['correct_answer'].toString(),
+                            style: GoogleFonts.lato(
+                              color: Colors.white,
+                            ),
+                          ),
                         ],
                       ),
                     ),
