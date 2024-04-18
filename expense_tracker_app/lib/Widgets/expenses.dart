@@ -24,6 +24,14 @@ class _ExpensesState extends State<Expenses> {
       category: Category.movie,
     ),
   ];
+
+  void _openAddExpenseOverlay() {
+    showModalBottomSheet(
+      context: context,
+      builder: (ctx) => Text('Model bottom Sheet'),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +39,7 @@ class _ExpensesState extends State<Expenses> {
         title: const Text('Flutter ExpenseTracker'),
         actions: [
           IconButton(
-            onPressed: () {},
+            onPressed: _openAddExpenseOverlay,
             icon: const Icon(Icons.add),
           ),
         ],
