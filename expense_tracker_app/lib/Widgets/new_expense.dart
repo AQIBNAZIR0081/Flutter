@@ -47,7 +47,25 @@ class _NewExpenseState extends State<NewExpense> {
     // check if the title is empty
     if (enteredTitle.trim().isEmpty ||
         amountIsInvalid ||
-        _selectedDate == null) {}
+        _selectedDate == null) {
+      showDialog(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          title: const Text('Invalid Input'),
+          content: const Text(
+              'Please make sure a valid title, amount, data and category was entered'),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(ctx);
+              },
+              child: const Text('Okay'),
+            ),
+          ],
+        ),
+      );
+      return;
+    }
   }
 
   // dispose the controller when the widget is disposed
