@@ -19,6 +19,8 @@ class _NewExpenseState extends State<NewExpense> {
   final _titleController = TextEditingController();
   final _amountController = TextEditingController();
   DateTime? _selectedDate;
+
+  // Defining the default Category
   Category _selectedCategory = Category.transport;
 
   void _presentDatePicker() async {
@@ -33,6 +35,19 @@ class _NewExpenseState extends State<NewExpense> {
     setState(() {
       _selectedDate = pickedDate;
     });
+  }
+
+  void _submitExpenseData() {
+    final enteredTitle = _titleController.text;
+
+    // tryParse('Hello') => null, tryParse('1.12') => 1.12
+    final enteredAmount = double.tryParse(_amountController.text);
+    final amountIsInvalid = enteredAmount == null || enteredAmount <= 0;
+
+    // check if the title is empty
+    if (enteredTitle.trim().isEmpty ||
+        amountIsInvalid ||
+        _selectedDate == null) {}
   }
 
   // dispose the controller when the widget is disposed
@@ -122,10 +137,7 @@ class _NewExpenseState extends State<NewExpense> {
                 child: const Text('Cancel'),
               ),
               ElevatedButton(
-                onPressed: () {
-                  print(_titleController.text);
-                  print(_amountController.text);
-                },
+                onPressed: _submitExpenseData,
                 child: const Text('Save Expense'),
               ),
             ],
